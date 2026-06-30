@@ -62,7 +62,11 @@ func newApp(version string, stdout io.Writer, fs afero.Fs) *cli.Command {
 		// os.Exit, so the exit code stays testable.
 		ExitErrHandler: func(context.Context, *cli.Command, error) {},
 		Flags: []cli.Flag{
-			&cli.StringFlag{Name: flagSeparator, Aliases: []string{"t"}, Usage: "use CHAR as input and output field separator"},
+			&cli.StringFlag{
+				Name:    flagSeparator,
+				Aliases: []string{"t"},
+				Usage:   "use CHAR as input and output field separator",
+			},
 		},
 		Action: action(stdout, fs),
 	}
