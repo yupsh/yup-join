@@ -1,21 +1,9 @@
-# yup-join
+[![actions](https://github.com/yupsh/yup-join/actions/workflows/actions.yml/badge.svg)](https://github.com/yupsh/yup-join/actions/workflows/actions.yml)
+[![ci](https://github.com/yupsh/yup-join/actions/workflows/ci.yml/badge.svg)](https://github.com/yupsh/yup-join/actions/workflows/ci.yml)
+[![dockerfiles](https://github.com/yupsh/yup-join/actions/workflows/dockerfiles.yml/badge.svg)](https://github.com/yupsh/yup-join/actions/workflows/dockerfiles.yml)
+[![docs](https://github.com/yupsh/yup-join/actions/workflows/docs.yml/badge.svg)](https://github.com/yupsh/yup-join/actions/workflows/docs.yml)
+[![go](https://github.com/yupsh/yup-join/actions/workflows/go.yml/badge.svg)](https://github.com/yupsh/yup-join/actions/workflows/go.yml)
+[![release](https://github.com/yupsh/yup-join/actions/workflows/release.yml/badge.svg)](https://github.com/yupsh/yup-join/actions/workflows/release.yml)
+[![shell](https://github.com/yupsh/yup-join/actions/workflows/shell.yml/badge.svg)](https://github.com/yupsh/yup-join/actions/workflows/shell.yml)
 
-```
-NAME:
-   join - join lines of two files on a common field
-
-USAGE:
-   join [OPTIONS] FILE1 FILE2
-
-   For each pair of input lines with identical join fields, write a line to
-   standard output. The join field is the first, delimited by a single space
-   unless -t is given. Both files must be sorted on the join field.
-
-VERSION:
-   dev
-
-GLOBAL OPTIONS:
-   --separator string, -t string  use CHAR as input and output field separator
-   --help, -h                     show help
-   --version                      print version information and exit
-```
+[docs](https://yupsh.github.io/docs.repl/)
