@@ -56,6 +56,8 @@ func flags() []urf.Flag {
 			Name:    flagSeparator,
 			Aliases: []string{"t"},
 			Usage:   "use CHAR as input and output field separator",
+			Sources: urf.EnvVars("YUP_JOIN_SEPARATOR"),
+			Value:   "",
 		},
 	}
 }
